@@ -8,8 +8,8 @@ Here is the top 100 PHP functions: it is the list of the most often used PHP nat
 
 | Rank	 | Function	 | Frequency	 | Average |
 | ------ | --------- | ------------- | ------- |
-| 1	 | file-exists	 | 62.80%	 | 13 |
-| 2	 | str-replace	 | 58.20%	 | 33 |
+| 1	 | file_exists	 | 62.80%	 | 13 |
+| 2	 | str_replace	 | 58.20%	 | 33 |
 | 3	 | implode	 | 57.31%	 | 35 |
 | 4	 | count	 | 56.42%	 | 61 |
 | 5	 | dirname	 | 56.38%	 | 13 |
@@ -87,7 +87,7 @@ Here is the top 100 PHP functions: it is the list of the most often used PHP nat
 | 77	 | end	 | 23.90%	 | 3 |
 | 78	 | array_search	 | 23.82%	 | 3 |
 | 79	 | max	 | 23.78%	 | 5 |
-| 80	 | extension-loaded	 | 23.59%	 | 3 |
+| 80	 | extension_loaded	 | 23.59%	 | 3 |
 | 81	 | is_bool	 | 23.55%	 | 2 |
 | 82	 | version_compare	 | 22.82%	 | 3 |
 | 83	 | preg_quote	 | 22.78%	 | 3 |
