@@ -58,3 +58,33 @@ $sayHey = function($name) {
 };
 $sayHey("Rey");
 unset($sayHey);
+
+function sum(...$numbers) {
+    $sum = 0;
+    foreach ($numbers as $number) {
+        $sum += $number;
+    }
+    return $sum;
+}
+print sum(1, 2, 3, 4)."\n";
+
+function sum2($numbers) {
+    $sum = 0;
+    foreach ($numbers as $number) {
+        $sum += $number;
+    }
+    return $sum;
+}
+print sum2([1, 2, 3, 4])."\n";
+// print sum([1, 2, 3, 4])."\n";
+
+
+function func($a, $b, $c, int ...$numbers) {
+    $sum = 0;
+    foreach ($numbers as $number) {
+        $sum += ($number + $a - $b) * $c;
+    }
+    return $sum;
+}
+var_dump(func(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+// var_dump(func(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "hi"));
