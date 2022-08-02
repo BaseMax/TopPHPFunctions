@@ -36,6 +36,12 @@ $names = array_filter($names, function($name) {
 });
 print_r($names);
 
+$names = array_filter($names, function($name) {
+    if(empty($name)) return false;
+    return true;
+});
+print_r($names);
+
 // $names = array_filter($names, function($name) {
 //     return $name[0] !== "f";
 // });
