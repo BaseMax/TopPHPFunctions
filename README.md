@@ -4,6 +4,8 @@
 
 Here is the top 100 PHP functions: it is the list of the most often used PHP native functions.
 
+> Why this repository? As a lead developer in the team, I am teaching the functions to my team members deeply.
+
 ### PHP Functions
 
 | Rank	 | Function	 | Frequency	 | Average |
