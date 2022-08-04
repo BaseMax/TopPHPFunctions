@@ -8,6 +8,12 @@ Here is the top 100 PHP functions: it is the list of the most often used PHP nat
 
 > Why this repository? As a lead developer in the team, I am teaching the functions to my team members deeply.
 
+## Where is the Data?
+
+The functions are named, and ranked from 1 to 100. The other 4500 functions are not ranked here.
+
+The frequency column represents how often this function is used across PHP code repositories: the reference corpus is a list of 2500 PHP Open Source projects (top 1000 composer, github/gitlab/gitee public repo, downloaded archives…).
+
 ### PHP Functions
 
 | Rank	 | Function	 | Frequency	 | Average |
